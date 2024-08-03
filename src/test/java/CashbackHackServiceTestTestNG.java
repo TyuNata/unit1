@@ -6,7 +6,7 @@ import org.testng.Assert;
 public class CashbackHackServiceTestTestNG {
 
     @Test
-    public void testcorrect1 (){
+    public void testcorrect1() {
         CashbackHackService service = new CashbackHackService();
         int amount = 2000;
         int actual = service.remain(amount);
@@ -14,8 +14,9 @@ public class CashbackHackServiceTestTestNG {
         Assert.assertEquals(actual, expected);
 
     }
+
     @Test
-    public void testcorrect2 (){
+    public void testcorrect2() {
         CashbackHackService service = new CashbackHackService();
         int amount = 500;
         int actual = service.remain(amount);
@@ -23,7 +24,7 @@ public class CashbackHackServiceTestTestNG {
         Assert.assertEquals(actual, expected);
 
     }
-    }
+}
 
 //Код, который вы привели, представляет собой простую реализацию класса CashbackHackService на языке Java. Давайте разберем его по частям:
 //
